@@ -1,1 +1,40 @@
-{     "devDependencies": {         "electron-rebuild": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-electron-rebuild",     "homepage": "https://github.com/npmtest/node-npmtest-electron-rebuild",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-electron-rebuild.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### test coverage for  [electron-rebuild (v1.5.7)](https://github.com/electron/electron-rebuild)  [![npm package](https://img.shields.io/npm/v/npmtest-electron-rebuild.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electron-rebuild) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electron-rebuild.svg)](https://travis-ci.org/npmtest/node-npmtest-electron-rebuild)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "electron-rebuild": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-electron-rebuild",
+    "keywords": [
+        "coverage",
+        "test",
+        "electron-rebuild"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_electron_rebuild.js",
+    "name": "npmtest-electron-rebuild",
+    "nameAlias": "npmtest_electron_rebuild",
+    "nameOriginal": "npmtest-electron-rebuild",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-electron-rebuild.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
