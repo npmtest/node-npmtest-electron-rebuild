@@ -32,7 +32,7 @@
 <tspan x="10" y="474">  │ │ ├─┬ babel-types@6.24.1 </tspan>
 <tspan x="10" y="490">  │ │ │ ├── babel-runtime@6.23.0 </tspan>
 <tspan x="10" y="506">  │ │ │ └── to-fast-properties@1.0.2 </tspan>
-<tspan x="10" y="522">  │ │ ├── babylon@6.16.1 </tspan>
+<tspan x="10" y="522">  │ │ ├── babylon@6.17.0 </tspan>
 <tspan x="10" y="538">  │ │ ├── convert-source-map@1.5.0 </tspan>
 <tspan x="10" y="554">  │ │ ├── json5@0.5.1 </tspan>
 <tspan x="10" y="570">  │ │ ├── path-is-absolute@1.0.1 </tspan>
@@ -53,8 +53,8 @@
 <tspan x="10" y="810">  │ └── regenerator-runtime@0.9.6 </tspan>
 <tspan x="10" y="826">  ├── bluebird@3.5.0 </tspan>
 <tspan x="10" y="842">  ├── colors@1.1.2 </tspan>
-<tspan x="10" y="858">  ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="874">  │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="858">  ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="874">  │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="890">  ├─┬ fs-promise@1.0.0 </tspan>
 <tspan x="10" y="906">  │ ├── any-promise@1.3.0 </tspan>
 <tspan x="10" y="922">  │ ├─┬ fs-extra@1.0.0 </tspan>
@@ -81,7 +81,7 @@
 <tspan x="10" y="1258">  │ ├─┬ nopt@3.0.6 </tspan>
 <tspan x="10" y="1274">  │ │ └── abbrev@1.1.0 </tspan>
 <tspan x="10" y="1290">  │ ├─┬ npmlog@4.0.2 </tspan>
-<tspan x="10" y="1306">  │ │ ├─┬ are-we-there-yet@1.1.2 </tspan>
+<tspan x="10" y="1306">  │ │ ├─┬ are-we-there-yet@1.1.4 </tspan>
 <tspan x="10" y="1322">  │ │ │ ├── delegates@1.0.0 </tspan>
 <tspan x="10" y="1338">  │ │ │ └─┬ readable-stream@2.2.9 </tspan>
 <tspan x="10" y="1354">  │ │ │   ├── buffer-shims@1.0.0 </tspan>
@@ -91,7 +91,7 @@
 <tspan x="10" y="1418">  │ │ │   ├── string_decoder@1.0.0 </tspan>
 <tspan x="10" y="1434">  │ │ │   └── util-deprecate@1.0.2 </tspan>
 <tspan x="10" y="1450">  │ │ ├── console-control-strings@1.1.0 </tspan>
-<tspan x="10" y="1466">  │ │ ├─┬ gauge@2.7.3 </tspan>
+<tspan x="10" y="1466">  │ │ ├─┬ gauge@2.7.4 </tspan>
 <tspan x="10" y="1482">  │ │ │ ├── aproba@1.1.1 </tspan>
 <tspan x="10" y="1498">  │ │ │ ├── has-unicode@2.0.1 </tspan>
 <tspan x="10" y="1514">  │ │ │ ├── signal-exit@3.0.2 </tspan>
