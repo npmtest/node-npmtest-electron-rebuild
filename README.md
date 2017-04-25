@@ -1,6 +1,6 @@
 # npmtest-electron-rebuild
 
-#### test coverage for  [electron-rebuild (v1.5.7)](https://github.com/electron/electron-rebuild)  [![npm package](https://img.shields.io/npm/v/npmtest-electron-rebuild.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electron-rebuild) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electron-rebuild.svg)](https://travis-ci.org/npmtest/node-npmtest-electron-rebuild)
+#### basic test coverage for  [electron-rebuild (v1.5.7)](https://github.com/electron/electron-rebuild)  [![npm package](https://img.shields.io/npm/v/npmtest-electron-rebuild.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electron-rebuild) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electron-rebuild.svg)](https://travis-ci.org/npmtest/node-npmtest-electron-rebuild)
 
 #### Electron supporting package to rebuild native node modules against the currently installed electron
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-electron-rebuild/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-electron-rebuild/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-electron-rebuild/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-electron-rebuild/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-electron-rebuild/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-electron-rebuild/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-electron-rebuild/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-electron-rebuild/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-electron-rebuild/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-electron-rebuild/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-electron-rebuild/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-electron-rebuild/build/coverage.html/index.html)
 
